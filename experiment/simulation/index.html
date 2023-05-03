@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="UTF-8" />
+	<title>George Miller Experiment</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="v-collapsible-instruction-container v-instruction-container">
+			<div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform George Miller
+				Experiment</div>
+			<div class="v-content">
+				<ul style="list-style: disc;">
+					<li>You need to select the number of words needed to be remembered.</li>
+					<li>You need to type those words in any order in the textbox that is shown after the words
+						disappear.</li>
+					<li>After completing the experiment, click on results to see the score.</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<h1>George Miller Experiment</h1>
+		<h2><p>Enter the number of words to be remembered:</p></h2>
+		<input type="number" id="numWords">
+		<button id="startButton" class="v-button">Start</button>
+
+		<div id="wordBox" class="hidden"></div>
+
+		<div id="inputBox" class="hidden">
+			<h2><p>Enter the words:</p></h2>
+			<div id="textBoxes"></div>
+			<button id="submit" class="v-button">Submit</button>
+		</div>
+
+		<p id="scoreDisplay" class="hidden"></p>
+
+		<button id="resetButton" class="v-button hidden">Play Again</button>
+	</div>
+	<script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+	<script src="./js/main.js"></script>
 </body>
+
 </html>
