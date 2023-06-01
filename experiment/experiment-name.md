@@ -1,1 +1,1 @@
-## Experiment name
+## George Miller Experiment 1956: Capacity of Short-Term Memory
