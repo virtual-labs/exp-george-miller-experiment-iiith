@@ -17,7 +17,11 @@ h2 {
 
 #word-container {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 20px;
+}
+
+#wordBox{
+  font-size: 20px;
 }
 
 #input-container {
@@ -25,7 +29,9 @@ h2 {
 }
 
 input[type="text"] {
-  width: 80px;
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
@@ -52,4 +58,6 @@ input[type="text"] {
 .v-instruction-container {
   border:.2rem solid #97d23d;
   justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto;
 }
