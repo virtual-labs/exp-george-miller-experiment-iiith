@@ -1,0 +1,2 @@
+### References
+1) Cowan, N. (2015). George Miller’s magical number of immediate memory in retrospect: Observations on the faltering progression of science. Psychological Review, 122(3), 536–541. https://doi.org/10.1037/a0039035

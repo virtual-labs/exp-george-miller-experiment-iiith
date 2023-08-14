@@ -1,0 +1,22 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What did George Miller's experiment reveal about the capacity of short-term memory?",
+        "answers": {
+          "a": "It can hold an unlimited number of items.",
+          "b": "It can hold only a single item at a time.",
+          "c": "It has a limited capacity of 7 ± 2 items.",
+          "d": "It varies depending on an individual's intelligence."
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
