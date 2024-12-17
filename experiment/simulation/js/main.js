@@ -9,29 +9,43 @@ const scoreDisplay = document.getElementById("scoreDisplay");
 const resetButton = document.getElementById("resetButton");
 
 document.getElementById("startButton").addEventListener("click", function() {
+    // Clear previous trial data
+    words = [];
     const numWords = parseInt(document.getElementById("numWords").value);
     if (numWords <= 0 || isNaN(numWords)) {
         alert("Please enter a valid number of words.");
         return;
     }
+    scoreDisplay.classList.add("hidden");
+    resetButton.classList.add("hidden");
 
     const wordList = ["apple", "banana", "cherry", "grape", "kiwi", "lemon", "orange", "pear", "pineapple", "strawberry"];
+    
+    // Generate random words
     for (let i = 0; i < numWords; i++) {
         const randomIndex = Math.floor(Math.random() * wordList.length);
         words.push(wordList[randomIndex]);
     }
 
+    // Display the words to memorize
     wordBox.innerHTML = words.join(", ");
     wordBox.classList.remove("hidden");
+
+    // Hide words and show input fields after 5 seconds
     setTimeout(function() {
         wordBox.classList.add("hidden");
         inputBox.classList.remove("hidden");
+        
+        // Clear previous input fields
+        textBoxes.innerHTML = "";
+        
+        // Create input fields based on the number of words
         for (let i = 0; i < numWords; i++) {
             const textBox = document.createElement("input");
             textBox.type = "text";
             textBoxes.appendChild(textBox);
         }
-    }, 5000);
+    }, 5000);  // Display words for 5 seconds
 });
 
 submitButton.addEventListener("click", function() {
@@ -43,22 +57,29 @@ submitButton.addEventListener("click", function() {
 });
 
 resetButton.addEventListener("click", function() {
+    // Reset the experiment
     words = [];
     score = 0;
     wordBox.innerHTML = "";
     textBoxes.innerHTML = "";
     scoreDisplay.innerHTML = "";
+    
+    // Hide elements and prepare for a new trial
     wordBox.classList.add("hidden");
     inputBox.classList.add("hidden");
     scoreDisplay.classList.add("hidden");
     resetButton.classList.add("hidden");
+    
+    // Clear the number of words input
+    document.getElementById("numWords").value = "";
 });
 
 function calculateScore() {
+    score = 0;  // Reset score before calculation
     for (let i = 0; i < words.length; i++) {
-        const input = textBoxes.children[i].value.toLowerCase();
-        if (input == words[i]) {
-            score++;
+        const input = textBoxes.children[i].value.trim().toLowerCase();  // Trim and convert to lowercase for comparison
+        if (input === words[i]) {
+            score++;  // Increment score for correct answers
         }
     }
 }

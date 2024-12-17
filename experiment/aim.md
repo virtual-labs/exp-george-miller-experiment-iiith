@@ -1,2 +1,3 @@
 ## Aim
-The aim of this experiment is to investigate the capacity of short-term memory, specifically focusing on George Miller's "Magical Number Seven" experiment. The experiment aims to provide participants with a deeper understanding of the limited capacity of short-term memory and its implications.
+
+The aim of this experiment is to explore the capacity of short-term memory by examining the principles of George Miller's **Magical Number Seven** experiment. This experiment seeks to demonstrate the limitations of short-term memory capacity and provide insights into how chunking and information organization can influence memory retention and recall.

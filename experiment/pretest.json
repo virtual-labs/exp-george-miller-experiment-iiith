@@ -1,22 +1,56 @@
 {
-    "version": 2.0,
-    "questions": [
-      {
-        "question": "What is the Magical Number Seven experiment by George Miller?",
-        "answers": {
-          "a": "An experiment on long-term memory capacity",
-          "b": "An experiment on the capacity of sensory memory",
-          "c": "An experiment on the capacity of short-term memory",
-          "d": "An experiment on the encoding and retrieval of memories"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "medium"
-      }
-    ]
-  }
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the Magical Number Seven experiment by George Miller?",
+      "answers": {
+        "a": "An experiment on long-term memory capacity",
+        "b": "An experiment on the capacity of sensory memory",
+        "c": "An experiment on the capacity of short-term memory",
+        "d": "An experiment on the encoding and retrieval of memories"
+      },
+      "explanations": {
+        "a": "Long-term memory refers to the retention of information over long periods, not short-term capacity.",
+        "b": "Sensory memory deals with very brief retention of sensory information, not short-term memory limits.",
+        "c": "Correct! George Miller's experiment investigated the limited capacity of short-term memory.",
+        "d": "Encoding and retrieval are processes in memory but were not the focus of Miller's experiment."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "According to Miller, what is the typical capacity of short-term memory?",
+      "answers": {
+        "a": "3 to 5 chunks of information",
+        "b": "5 to 9 chunks of information",
+        "c": "9 to 11 chunks of information",
+        "d": "Unlimited chunks of information"
+      },
+      "explanations": {
+        "a": "This is incorrect. Miller observed that most individuals could recall slightly more than this.",
+        "b": "Correct! Miller proposed that short-term memory holds 7 items, plus or minus 2.",
+        "c": "This exceeds the typical short-term memory capacity observed by Miller.",
+        "d": "Short-term memory is limited, unlike long-term memory, which can store much more information."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the concept of 'chunking' refer to in Miller's experiment?",
+      "answers": {
+        "a": "Breaking information into smaller, random pieces",
+        "b": "Organizing information into meaningful units",
+        "c": "Repeating information multiple times to remember it",
+        "d": "Storing information in long-term memory"
+      },
+      "explanations": {
+        "a": "This is incorrect. Chunking involves organizing, not randomizing, information.",
+        "b": "Correct! Chunking refers to grouping information into meaningful units to improve recall.",
+        "c": "While repetition aids memory, it is not the same as chunking.",
+        "d": "Long-term memory storage was not the focus of Miller's short-term memory experiment."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

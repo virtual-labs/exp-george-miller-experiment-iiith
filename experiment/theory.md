@@ -1,6 +1,20 @@
 ## Theory
-George Miller's experiment, conducted in 1956, aimed to investigate the capacity of short-term memory. Miller proposed that the average human short-term memory has a limited capacity, often referred to as the "Magical Number Seven" phenomenon. According to Miller's theory, the capacity of short-term memory is around seven (plus or minus two) chunks of information. Miller’s law teaches us that humans have a finite amount of information they can process, and that information overload will lead to distraction that negatively affects performance. Most adults can store between 5 and 9 items in their short-term memory.<br>
-Miller defined a chunk as a meaningful unit of information that can be grouped or organized in a way that makes it easier to remember. For example, a chunk could be a word, a digit, a phrase, or a combination of related items. By grouping information into chunks, individuals can effectively expand the capacity of their short-term memory.<br>
-In his experiment, Miller used various tasks to test the limits of short-term memory capacity. One of the most famous tasks involved presenting participants with a sequence of digits or letters and asking them to recall the sequence in the correct order. Miller observed that people could remember, on average, around seven items from the sequence.<br>
-Miller proposed that the capacity of short-term memory is influenced by several factors, including the nature of the information being processed, the level of organization or chunking applied, and individual differences. He suggested that when information exceeds the capacity of short-term memory, it may be lost or overwritten by new incoming information.<br>
-Miller's research on the limited capacity of short-term memory has had a significant impact on our understanding of human cognition and memory processes. It highlights the constraints of our cognitive system and the challenges we face when attempting to process and remember large amounts of information simultaneously. Understanding the limits of short-term memory capacity is crucial for various fields, including psychology, cognitive science, and human-computer interaction, as it helps inform the design of effective learning strategies, communication techniques, and information presentation formats.
+
+In 1956, George Miller conducted groundbreaking research to investigate the capacity of short-term memory. He proposed the concept of the **"Magical Number Seven"**, suggesting that the average human short-term memory can hold about **7 items, plus or minus 2**.
+
+Miller introduced the idea of **chunking**, where information is grouped into meaningful units or "chunks" to make it easier to remember. For example, instead of remembering individual digits like *1, 9, 4, 7*, a person may group them as the year **"1947"** for improved recall. These chunks can be **digits, words, phrases, or related items** that are easier to process.
+
+During his experiments, participants were presented with sequences of **letters, digits, or other information** and asked to recall them in the correct order. Miller observed that most people could accurately recall between **5 to 9 items**, depending on how the information was presented and organized.
+
+### Key Insights from Miller's Research:
+1. **Capacity** – Short-term memory is limited to approximately **7 chunks** of information.
+2. **Organization** – Grouping information into **chunks** enhances memory retention.
+3. **Overload** – When information exceeds memory capacity, it is either **lost** or replaced by new data.
+
+Miller’s research emphasized the constraints of short-term memory and the importance of organizing information efficiently. It has applications in various fields, including:
+
+- **Education**: Designing study techniques using chunking methods.
+- **User Interface Design**: Presenting information in manageable, organized groups.
+- **Communication Strategies**: Structuring messages to improve clarity and retention.
+
+Miller’s theory remains a cornerstone in **cognitive psychology** and continues to influence how we understand memory processing and information overload.

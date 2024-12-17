@@ -1,22 +1,73 @@
 {
-    "version": 2.0,
-    "questions": [
-      {
-        "question": "What did George Miller's experiment reveal about the capacity of short-term memory?",
-        "answers": {
-          "a": "It can hold an unlimited number of items.",
-          "b": "It can hold only a single item at a time.",
-          "c": "It has a limited capacity of 7 ± 2 items.",
-          "d": "It varies depending on an individual's intelligence."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "beginner"
-      }
-    ]
-  }
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What did George Miller's experiment reveal about the capacity of short-term memory?",
+      "answers": {
+        "a": "It can hold an unlimited number of items.",
+        "b": "It can hold only a single item at a time.",
+        "c": "It has a limited capacity of 7 ± 2 items.",
+        "d": "It varies depending on an individual's intelligence."
+      },
+      "explanations": {
+        "a": "This is incorrect. Miller found that short-term memory has a limited capacity.",
+        "b": "This is incorrect. While short-term memory is limited, it can hold more than one item.",
+        "c": "Correct! Miller's experiment showed that short-term memory can hold 7 ± 2 items.",
+        "d": "This is incorrect. Miller's findings were general and not based on intelligence."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does chunking help improve short-term memory performance?",
+      "answers": {
+        "a": "By reducing the number of items to remember.",
+        "b": "By increasing the time items can be stored.",
+        "c": "By allowing unlimited storage in short-term memory.",
+        "d": "By eliminating the need for rehearsal."
+      },
+      "explanations": {
+        "a": "Correct! Chunking groups information into larger units, reducing the load on short-term memory.",
+        "b": "This is incorrect. Chunking doesn't increase storage time.",
+        "c": "This is incorrect. Short-term memory still has limitations.",
+        "d": "This is incorrect. Chunking helps, but rehearsal is still important."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is an example of chunking in everyday life?",
+      "answers": {
+        "a": "Memorizing each letter in a long string individually.",
+        "b": "Grouping a phone number into smaller parts (e.g., 123-456-7890).",
+        "c": "Repeating an item over and over to remember it.",
+        "d": "Writing down information to avoid forgetting."
+      },
+      "explanations": {
+        "a": "This is incorrect. Memorizing letters individually is not chunking.",
+        "b": "Correct! Grouping numbers or items into meaningful chunks makes them easier to remember.",
+        "c": "This is incorrect. Repetition is rehearsal, not chunking.",
+        "d": "This is incorrect. Writing things down is an external memory aid, not chunking."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary reason short-term memory has a limited capacity?",
+      "answers": {
+        "a": "Information decays quickly over time.",
+        "b": "The brain has limited storage space for sensory input.",
+        "c": "Cognitive processing resources are limited.",
+        "d": "Long-term memory overrides short-term memory."
+      },
+      "explanations": {
+        "a": "This is incorrect. Decay refers to time, not capacity.",
+        "b": "This is incorrect. Short-term memory is not about sensory input storage.",
+        "c": "Correct! Limited cognitive resources restrict the number of items stored in short-term memory.",
+        "d": "This is incorrect. Long-term memory does not interfere with short-term memory capacity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
