@@ -2,23 +2,6 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What did George Miller's experiment reveal about the capacity of short-term memory?",
-      "answers": {
-        "a": "It can hold an unlimited number of items.",
-        "b": "It can hold only a single item at a time.",
-        "c": "It has a limited capacity of 7 ± 2 items.",
-        "d": "It varies depending on an individual's intelligence."
-      },
-      "explanations": {
-        "a": "This is incorrect. Miller found that short-term memory has a limited capacity.",
-        "b": "This is incorrect. While short-term memory is limited, it can hold more than one item.",
-        "c": "Correct! Miller's experiment showed that short-term memory can hold 7 ± 2 items.",
-        "d": "This is incorrect. Miller's findings were general and not based on intelligence."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
       "question": "How does chunking help improve short-term memory performance?",
       "answers": {
         "a": "By reducing the number of items to remember.",
