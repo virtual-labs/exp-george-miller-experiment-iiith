@@ -1,1 +1,1 @@
-## Experiment name
+## George Miller Experiment 

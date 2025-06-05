@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How does chunking help improve short-term memory performance?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By reducing the number of items to remember.",
+        "b": "By increasing the time items can be stored.",
+        "c": "By allowing unlimited storage in short-term memory.",
+        "d": "By eliminating the need for rehearsal."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! Chunking groups information into larger units, reducing the load on short-term memory.",
+        "b": "This is incorrect. Chunking doesn't increase storage time.",
+        "c": "This is incorrect. Short-term memory still has limitations.",
+        "d": "This is incorrect. Chunking helps, but rehearsal is still important."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is an example of chunking in everyday life?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Memorizing each letter in a long string individually.",
+        "b": "Grouping a phone number into smaller parts (e.g., 123-456-7890).",
+        "c": "Repeating an item over and over to remember it.",
+        "d": "Writing down information to avoid forgetting."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is incorrect. Memorizing letters individually is not chunking.",
+        "b": "Correct! Grouping numbers or items into meaningful chunks makes them easier to remember.",
+        "c": "This is incorrect. Repetition is rehearsal, not chunking.",
+        "d": "This is incorrect. Writing things down is an external memory aid, not chunking."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary reason short-term memory has a limited capacity?",
+      "answers": {
+        "a": "Information decays quickly over time.",
+        "b": "The brain has limited storage space for sensory input.",
+        "c": "Cognitive processing resources are limited.",
+        "d": "Long-term memory overrides short-term memory."
+      },
+      "explanations": {
+        "a": "This is incorrect. Decay refers to time, not capacity.",
+        "b": "This is incorrect. Short-term memory is not about sensory input storage.",
+        "c": "Correct! Limited cognitive resources restrict the number of items stored in short-term memory.",
+        "d": "This is incorrect. Long-term memory does not interfere with short-term memory capacity."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

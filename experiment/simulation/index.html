@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>George Miller Experiment</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+	<div class="v-collapsible-instruction-container v-instruction-container">
+		<div id="instruction-title" class="v-collapsible is-size-5">Instructions for George Miller's Memory Experiment</div>
+		<div class="v-content">
+			<ul style="list-style: disc; text-align: left;">
+				<li>First, select how many words you would like to remember for this trial. You can start with fewer words and gradually increase the number of words in subsequent trials.</li>
+				<li>Once the words are displayed, focus on memorizing them in the exact order they appear.</li>
+				<li>After the words disappear, you will be prompted to type them back in the same order in the textbox provided. Be as accurate as possible.</li>
+				<li>If you are unsure of the order or forget any words, don't worry! You can try again by selecting a different number of words or retrying the current trial.</li>
+				<li>Once you've entered your responses, click on "Submit" to view your score, which will show how many words you recalled correctly.</li>
+				<li>Keep practicing and try to improve your score as you go. You can repeat the experiment as many times as you like!</li>
+			</ul>
+		</div>
+	</div>
+	
+	<h1>George Miller Experiment</h1>
+	<h2>
+		<p>Enter the number of words to be remembered:</p>
+	</h2><br>
+	<input type="number" id="numWords"><br><br>
+	<button id="startButton" class="v-button">Start</button><br><br>
+	<div id="wordBox" class="hidden"></div>
+
+	<div id="inputBox" class="hidden">
+		<h2>
+			<p>Enter the words:</p>
+		</h2>
+		<div id="textBoxes"></div><br>
+		<button id="submit" class="v-button">Submit</button>
+	</div>
+
+	<p id="scoreDisplay" class="hidden"></p>
+
+	<button id="resetButton" class="v-button hidden">Try Again</button>
+
+	<script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+	<script src="./js/main.js"></script>
 </body>
+
 </html>
